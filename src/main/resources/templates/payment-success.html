@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Successful</title>
+</head>
+<body>
+<h2>✅ Payment Confirmation</h2>
+<p>Thank you, <strong th:text="${username}">[username]</strong>!</p>
+<p>Your payment of <strong>$<span th:text="${amount}">[amount]</span></strong> was successful.</p>
+<a href="/payment">Make another payment</a>
+</body>
+</html>
